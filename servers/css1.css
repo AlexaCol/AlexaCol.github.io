@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,900);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body
+{
+  font-family: 'Titillium Web', sans-serif;
+  margin:0;
+  text-align: center;
+  color:#546E7A;
+}
+h1
+{
+  margin-top: 3px;
+}
+
+
+
+#menuF
+{
+  background-color:#F44336;
+  width: auto;
+  height: 200px;
+  border-color: #F44336;
+  border-style: solid;
+
+}
+
+h4
+{
+  font-family: 'Oswald', sans-serif;
+  color:#C62828;
+}
+
+select
+{
+  width: 300px;
+  height: 50px;
+  top: 150px;
+  font-size: 1.5em;
+  background-color: #F44336;
+  border: 0px;
+}
+
+
+select:hover
+{
+  background-color: #E53935;
+  
+}
+option
+{
+  border-width: 10px;
+  border-color: #546E7A;
+}
+.white
+{
+  background-color: white;
+}
+
+table
+{
+  border: 2.5px solid #546E7A;
+  border-spacing:0;   
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 9px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+ body 
+ {
+  font-size: 75%;
+ }
+
+}

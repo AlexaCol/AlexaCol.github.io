@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body
+{
+	background-color: #014A7F;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	overflow-x: hidden;
+        margin: 0;
+}
+
+#backImg
+{
+	height: 330px;
+	width: auto;
+	background-color:#0174C6;
+	border-color: #0174C6;
+	border-style:solid;
+	margin:auto; 
+}
+
+#borCircl
+{
+    height:120px;
+    width:120px;
+    border-color:#003154;
+    background-color:#003154;
+    border-style:solid;
+    border-radius:90px; 
+    margin:auto; 
+}
+
+#imgCircl
+{
+	width:120px;
+	height: 120px;
+	border-radius:90px; 
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#line
+{
+	width:auto;
+	height:30px;
+	top:autopx;
+	background-color:#003154;
+}
+
+#media
+{
+	height:128px;
+	width:650px;
+	margin:auto; 
+	
+}
+
+
+
+h1{
+	color: #003154;
+	font-family: 'Shadows Into Light', cursive;
+}
+h2{
+	color: #003154;
+	font-family: 'Shadows Into Light', cursive;
+}
+p
+{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+a
+{
+	text-decoration:  none;
+	color:#0174C6;
+	font-size: 1.3em;
+}
+p:hover
+{
+	color:red;
+	
+}
+
+ img:hover
+{
+	width: 150px;
+	height: 150px;
+	vertical-align:top;
+}
+
+img:hover
+{
+	width: 150px;
+	height: 150px;
+}
+
+@media only screen and (max-width: 900px) {
+ body {
+  font-size: 75%;
+ }
+ img, img:hover {
+  width: 72px;
+   height: 72px;
+ }
+#backImg
+{
+	width: auto;
+	height: 75%%;
+	border-radius:5px;
+}
+h1
+{
+	font-size:80px;
+}
+#borCircl
+{
+	width:85px;
+	height:85px;
+}
+
+#imgCircl
+{
+    width:85px;
+	height:85px;
+}
+
+#media
+{
+    height:64px;
+	width:325px;
+}
+
+}
