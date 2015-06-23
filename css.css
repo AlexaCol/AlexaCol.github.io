@@ -2,7 +2,7 @@
 
 body
 {
-	background-color: #014A7F;
+	background-color: white;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
 	overflow-x: hidden;
@@ -11,7 +11,7 @@ body
 
 #backImg
 {
-	height: 330px;
+	height: 310px;
 	width: auto;
 	background-color:#0174C6;
 	border-color: #0174C6;
@@ -28,6 +28,7 @@ body
     border-style:solid;
     border-radius:90px; 
     margin:auto; 
+	margin-top: 15px;
 }
 
 #imgCircl
@@ -76,11 +77,6 @@ a
 	text-decoration:  none;
 	color:#0174C6;
 	font-size: 1.3em;
-}
-p:hover
-{
-	color:red;
-	
 }
 
  img:hover
