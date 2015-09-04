@@ -1,131 +1,80 @@
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
-
 body
 {
-	background-color: white;
-	text-align: center;
-	font-family: 'Shadows Into Light', cursive;
-	overflow-x: hidden;
-        margin: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #FAFAFA;
 }
-
-#backImg
+#bar
 {
-	height: 310px;
-	width: auto;
-	background-color:#0174C6;
-	border-color: #0174C6;
-	border-style:solid;
-	margin:auto; 
+  margin: 0;
+  border:  1px solid #F44336;
+  background-color:#F44336;
+  height: 80px;
+  width: auto;
+  bottom: -10px;
 }
-
-#borCircl
+#title
 {
-    height:120px;
-    width:120px;
-    border-color:#003154;
-    background-color:#003154;
-    border-style:solid;
-    border-radius:90px; 
-    margin:auto; 
-	margin-top: 15px;
+  font-family: 'Share', cursive;
+  font-size: 3em;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
-#imgCircl
+#menu
 {
-	width:120px;
-	height: 120px;
-	border-radius:90px; 
-    background-repeat: no-repeat;
-    background-position: 50%;
+  margin: 0 auto;
+  border:  solid #D32F2F;
+  background-color: #D32F2F;
+  height: 40px;
 }
-
-#line
+#button
 {
-	width:auto;
-	height:30px;
-	top:autopx;
-	background-color:#003154;
+  margin: auto;
+  border: 0px solid #E53935;
+  background-color: #E53935;
+  width: 90px;
+  height: 45px;
+  margin-top: -3px;
+  display: inline;
+  position:absolute;
 }
-
-#media
+#button1
 {
-	height:128px;
-	width:650px;
-	margin:auto; 
-	
+  margin: auto;
+  border: 0px solid #E53935;
+  background-color: #E53935;
+  width: auto;
+  height: 45px;
+  margin-top: -3px;
+  margin-left:  100px;
+  display: inline;
+  position:absolute;
 }
 
-
-
-h1{
-	color: #003154;
-	font-family: 'Shadows Into Light', cursive;
-}
-h2{
-	color: #003154;
-	font-family: 'Shadows Into Light', cursive;
-}
-p
+#button2
 {
-	font-size: 1.5em;
-	text-align: center;
+  margin: auto;
+  border: 0px solid #E53935;
+  background-color: #E53935;
+  width: auto;
+  height: 45px;
+  margin-top: -3px;
+  margin-left:  300px;
+  display: inline;
+  position:absolute;
 }
 
-a
+.isB div:hover
 {
-	text-decoration:  none;
-	color:#0174C6;
-	font-size: 1.3em;
+  background-color: blue;
 }
-
- img:hover
+.menuA
 {
-	width: 150px;
-	height: 150px;
-	vertical-align:top;
-}
-
-img:hover
-{
-	width: 150px;
-	height: 150px;
-}
-
-@media only screen and (max-width: 900px) {
- body {
-  font-size: 75%;
- }
- img, img:hover {
-  width: 72px;
-   height: 72px;
- }
-#backImg
-{
-	width: auto;
-	height: 75%%;
-	border-radius:5px;
-}
-h1
-{
-	font-size:80px;
-}
-#borCircl
-{
-	width:85px;
-	height:85px;
-}
-
-#imgCircl
-{
-    width:85px;
-	height:85px;
-}
-
-#media
-{
-    height:64px;
-	width:325px;
-}
-
+  margin-top: 13px;
+  text-decoration: none;
+  font-family:sans-serif;
+  color: black;
+  display:inline-block;
 }
