@@ -3,12 +3,13 @@ body
   margin: 0;
   text-align: center;
   background-color: #FAFAFA;
+  font-size: 1.4em;
 }
 #bar
 {
   margin: 0;
-  border:  1px solid #F44336;
-  background-color:#F44336;
+  border:  1px solid #004a7f;
+  background-color:#004a7f;
   height: 80px;
   width: auto;
   bottom: -10px;
@@ -16,65 +17,27 @@ body
 #title
 {
   font-family: 'Share', cursive;
-  font-size: 3em;
+  font-size: 2em;
   text-align: left;
   margin-left: 30px;
   margin-top: 20px;
 }
 
-#menu
+
+#aboutBubble
 {
+  border: 4px solid #E0E0E0;
+  background-color: #EEEEEE;
+  width: 370px;
+  height: auto;
   margin: 0 auto;
-  border:  solid #D32F2F;
-  background-color: #D32F2F;
-  height: 40px;
-}
-#button
-{
-  margin: auto;
-  border: 0px solid #E53935;
-  background-color: #E53935;
-  width: 90px;
-  height: 45px;
-  margin-top: -3px;
-  display: inline;
-  position:absolute;
-}
-#button1
-{
-  margin: auto;
-  border: 0px solid #E53935;
-  background-color: #E53935;
-  width: auto;
-  height: 45px;
-  margin-top: -3px;
-  margin-left:  100px;
-  display: inline;
-  position:absolute;
+  margin-top: 30px;
 }
 
-#button2
+#logo
 {
-  margin: auto;
-  border: 0px solid #E53935;
-  background-color: #E53935;
-  width: auto;
-  height: 45px;
-  margin-top: -3px;
-  margin-left:  300px;
-  display: inline;
-  position:absolute;
-}
-
-.isB div:hover
-{
-  background-color: blue;
-}
-.menuA
-{
-  margin-top: 13px;
-  text-decoration: none;
-  font-family:sans-serif;
-  color: black;
-  display:inline-block;
+border: solid 5px #E0E0E0;
+width: 100px;
+border-radius: 90px;
+border-top: -600px;
 }
