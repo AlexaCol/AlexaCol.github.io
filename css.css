@@ -3,40 +3,78 @@ body
   margin: 0;
   text-align: center;
   background-color: #FAFAFA;
+  font-family: Amatic SC;
   font-size: 1.4em;
+  line-height: 50px;
 }
-#bar
+#back
 {
-  margin: 0;
-  border:  1px solid #004a7f;
-  background-color:#004a7f;
-  height: 80px;
-  width: auto;
-  bottom: -10px;
+  border:1px solid #004a7f;
+  background-color: #004a7f;
 }
 #logo
 {
-height: 50px;
+height: 100px;
 text-align: left;
 margin-top: 20px;
-margin-left: -1500px;
+margin-left: auto;
 }
 
-
-#aboutBubble
+#circleIco
 {
-  border: 4px solid #E0E0E0;
-  background-color: #EEEEEE;
-  width: 370px;
-  height: auto;
-  margin: 0 auto;
+  font-size: 140px;
   margin-top: 30px;
 }
-
-#icon
+#circleButton
 {
-border: solid 5px #E0E0E0;
-width: 100px;
-border-radius: 90px;
-border-top: -600px;
+  margin:auto;
+  margin-top: 180px;
+  border: solid 5px #283593;
+  color: #283593;
+  width: 200px;
+  height: 200px;
+  border-radius: 180px;
+}
+#circleButton1
+{
+  margin: auto;
+  margin-right:580px;
+  margin-top: -210px;
+  border: solid 5px #283593;
+  color: #283593;
+  width: 200px;
+  height: 200px;
+  border-radius: 180px;
+}
+
+#circleButton2
+{
+  margin:auto;
+  margin-left: 580px;
+  margin-top: -210px;
+  border: solid 5px #283593;
+  color: #283593;
+  width: 200px;
+  height: 200px;
+  border-radius: 180px;
+}
+
+
+#circleButton:hover
+{
+  background-color: #ececec;
+  border-color: #232f84;
+  color:#232f84;
+}
+#circleButton1:hover
+{
+  background-color: #ececec;
+  border-color: #232f84;
+  color:#232f84;
+}
+#circleButton2:hover
+{
+  background-color: #ececec;
+  border-color: #232f84;
+  color:#232f84;
 }
