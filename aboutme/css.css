@@ -1,0 +1,42 @@
+body
+{
+  margin: 0;
+  text-align: center;
+  background-color: #FAFAFA;
+  font-size: 1.4em;
+}
+#bar
+{
+  margin: 0;
+  border:  1px solid #004a7f;
+  background-color:#004a7f;
+  height: 80px;
+  width: auto;
+  bottom: -10px;
+}
+#logo
+{
+height: 50px;
+text-align: left;
+margin-top: 20px;
+margin-left: -1500px;
+}
+
+
+#aboutBubble
+{
+  border: 4px solid #E0E0E0;
+  background-color: #EEEEEE;
+  width: 370px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#icon
+{
+border: solid 5px #E0E0E0;
+width: 100px;
+border-radius: 90px;
+border-top: -600px;
+}

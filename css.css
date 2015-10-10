@@ -19,62 +19,27 @@ text-align: left;
 margin-top: 20px;
 margin-left: auto;
 }
-
-#circleIco
+#ccenter
 {
-  font-size: 140px;
-  margin-top: 30px;
+  color:#283593;
+  margin-top: 150px;
 }
-#circleButton
+.button
 {
-  margin:auto;
-  margin-top: 180px;
-  border: solid 5px #283593;
-  color: #283593;
-  width: 200px;
-  height: 200px;
+  border: 6px solid #283593;
+  width: 250px;
+  height: 250px;
   border-radius: 180px;
-}
-#circleButton1
-{
-  margin: auto;
-  margin-right:580px;
-  margin-top: -210px;
-  border: solid 5px #283593;
-  color: #283593;
-  width: 200px;
-  height: 200px;
-  border-radius: 180px;
-}
+  display: inline-block;
 
-#circleButton2
-{
-  margin:auto;
-  margin-left: 580px;
-  margin-top: -210px;
-  border: solid 5px #283593;
-  color: #283593;
-  width: 200px;
-  height: 200px;
-  border-radius: 180px;
 }
-
-
-#circleButton:hover
+#icon
 {
-  background-color: #ececec;
-  border-color: #232f84;
-  color:#232f84;
+  margin-top: 20px;
+  font-size: 200px;
 }
-#circleButton1:hover
+.button:hover
 {
-  background-color: #ececec;
-  border-color: #232f84;
-  color:#232f84;
-}
-#circleButton2:hover
-{
-  background-color: #ececec;
-  border-color: #232f84;
-  color:#232f84;
+  color:#1A237E;
+  border-color: #1A237E;
 }
