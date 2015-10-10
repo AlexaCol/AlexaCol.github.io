@@ -9,6 +9,7 @@ body
 }
 #back
 {
+  margin: auto;
   width: auto;
   border:1px solid #004a7f;
   background-color: #004a7f;
