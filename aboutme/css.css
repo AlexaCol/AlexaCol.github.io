@@ -4,6 +4,7 @@ body
   text-align: center;
   background-color: #FAFAFA;
   font-size: 1.4em;
+    font-family: Amatic SC;
 }
 #bar
 {
@@ -19,7 +20,7 @@ body
 height: 50px;
 text-align: left;
 margin-top: 20px;
-margin-left: -1500px;
+margin-left: -1000px;
 }
 
 
@@ -40,4 +41,16 @@ border: solid 5px #E0E0E0;
 width: 100px;
 border-radius: 90px;
 border-top: -600px;
+}
+#tab
+{
+  margin-left: 1.5em;
+  display: inline;
+  text-decoration: none;
+  color:#DCDADB;
+  font-size: 2em;
+}
+#tab:hover
+{
+  color:#D73900;
 }
