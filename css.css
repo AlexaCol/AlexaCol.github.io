@@ -22,7 +22,10 @@ margin-left: auto;
 #ccenter
 {
   color:#283593;
+  margin: auto;
   margin-top: 150px;
+  width: 45em;
+
 }
 .button
 {
@@ -32,6 +35,14 @@ margin-left: auto;
   border-radius: 180px;
   display: inline-block;
 
+}
+#left
+{
+  float:left;
+}
+#right
+{
+  float: right;
 }
 #icon
 {
